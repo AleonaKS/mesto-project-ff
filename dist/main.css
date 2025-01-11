@@ -1,6 +1,3 @@
-/*!**************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/vendor/normalize.css ***!
-  \**************************************************************************************************************************************************/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -351,33 +348,27 @@ template {
   display: none;
 }
 
-/*!**********************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/vendor/fonts.css ***!
-  \**********************************************************************************************************************************************/
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 400;
-  src: url(dcba3388310e6ae77440.woff2) format("woff2");
+  src: url(fonts/Inter-Regular.dcba3388310e6ae77440.woff2) format("woff2");
 }
 
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 500;
-  src: url(e481ef8133a3c71636e5.woff2) format("woff2");
+  src: url(fonts/Inter-Medium.e481ef8133a3c71636e5.woff2) format("woff2");
 }
 
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 900;
-  src: url(8d07d4e4ea9833df9373.woff2) format("woff2");
+  src: url(fonts/Inter-Black.8d07d4e4ea9833df9373.woff2) format("woff2");
 }
 
-/*!*********************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/page/__content/page__content.css ***!
-  \*********************************************************************************************************************************************************************/
 .page__content {
   background-color: black;
   min-height: 100vh;
@@ -387,9 +378,6 @@ template {
   flex-direction: column;
 }
 
-/*!*********************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/page/__section/page__section.css ***!
-  \*********************************************************************************************************************************************************************/
 .page__section {
   width: 100%;
   max-width: 882px;
@@ -406,16 +394,10 @@ template {
   }
 }
 
-/*!**************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/page/page.css ***!
-  \**************************************************************************************************************************************************/
 .page {
   background: #000;
 }
 
-/*!*******************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__logo/header__logo.css ***!
-  \*******************************************************************************************************************************************************************/
 .header__logo {
   width: 142px;
   height: 33px;
@@ -430,9 +412,6 @@ template {
   }
 }
 
-/*!******************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/header.css ***!
-  \******************************************************************************************************************************************************/
 .header {
   min-height: 120px;
   font-family: 'Inter', Arial, sans-serif;
@@ -466,17 +445,11 @@ template {
   }
 }
 
-/*!********************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/content/content.css ***!
-  \********************************************************************************************************************************************************/
 .content {
   flex-shrink: 0;
   flex-grow: 1;
 }
 
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__copyright/footer__copyright.css ***!
-  \*****************************************************************************************************************************************************************************/
 .footer__copyright {
   font-size: 18px;
   line-height: 22px;
@@ -491,9 +464,6 @@ template {
   }
 }
 
-/*!******************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/footer.css ***!
-  \******************************************************************************************************************************************************/
 .footer {
   font-family: 'Inter', Arial, sans-serif;
   flex-shrink: 0;
@@ -506,9 +476,6 @@ template {
   }
 }
 
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/__description/profile__description.css ***!
-  \***********************************************************************************************************************************************************************************/
 .profile__description {
   font-size: 18px;
   line-height: 22px;
@@ -530,13 +497,10 @@ template {
   }
 }
 
-/*!*********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/__add-button/profile__add-button.css ***!
-  \*********************************************************************************************************************************************************************************/
 .profile__add-button {
   width: 150px;
   height: 50px;
-  background: transparent url(d86bb2edc2f6eadb96b7.svg) center no-repeat;
+  background: transparent url(images/add-icon.d86bb2edc2f6eadb96b7.svg) center no-repeat;
   background-size: 22px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -568,13 +532,10 @@ template {
   }
 }
 
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/__edit-button/profile__edit-button.css ***!
-  \***********************************************************************************************************************************************************************************/
 .profile__edit-button {
   width: 24px;
   height: 24px;
-  background: transparent url(8667ac4a523e8fc42e59.svg) center no-repeat;
+  background: transparent url(images/edit-icon.8667ac4a523e8fc42e59.svg) center no-repeat;
   background-size: 10px 10px;
   border: 1px solid #fff;
   grid-area: button;
@@ -601,9 +562,6 @@ template {
   }
 }
 
-/*!*********************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/__info/profile__info.css ***!
-  \*********************************************************************************************************************************************************************/
 .profile__info {
   display: grid;
   grid-template-areas: "title button"
@@ -635,9 +593,6 @@ template {
   }
 }
 
-/*!***********************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/__title/profile__title.css ***!
-  \***********************************************************************************************************************************************************************/
 .profile__title {
   font-size: 42px;
   line-height: 48px;
@@ -669,9 +624,6 @@ template {
   }
 }
 
-/*!***********************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/__image/profile__image.css ***!
-  \***********************************************************************************************************************************************************************/
 .profile__image {
   width: 120px;
   height: 120px;
@@ -695,9 +647,6 @@ template {
   }
 }
 
-/*!********************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/profile.css ***!
-  \********************************************************************************************************************************************************/
 .profile {
   font-family: 'Inter', Arial, sans-serif;
   color: #fff;
@@ -714,9 +663,6 @@ template {
   }
 }
 
-/*!*******************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/places/__list/places__list.css ***!
-  \*******************************************************************************************************************************************************************/
 .places__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, 282px);
@@ -727,16 +673,10 @@ template {
   padding: 0;
 }
 
-/*!*******************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/places/__item/places__item.css ***!
-  \*******************************************************************************************************************************************************************/
 .places__item {
 
 }
 
-/*!******************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/places/places.css ***!
-  \******************************************************************************************************************************************************/
 .places {
   font-family: 'Inter', Arial, sans-serif;
   padding: 15px 0 36px;
@@ -748,9 +688,6 @@ template {
   }
 }
 
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/card/__description/card__description.css ***!
-  \*****************************************************************************************************************************************************************************/
 .card__description {
   display: flex;
   justify-content: space-between;
@@ -759,9 +696,6 @@ template {
   padding: 25px 20px;
 }
 
-/*!*****************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/card/__image/card__image.css ***!
-  \*****************************************************************************************************************************************************************/
 .card__image {
   height: 282px;
   object-fit: cover;
@@ -772,13 +706,10 @@ template {
   cursor: pointer;
 }
 
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/card/__like-button/card__like-button.css ***!
-  \*****************************************************************************************************************************************************************************/
 .card__like-button {
   width: 21px;
   height: 18px;
-  background: transparent url(49570bcb1d637fdb38e5.svg) no-repeat;
+  background: transparent url(images/like-inactive.49570bcb1d637fdb38e5.svg) no-repeat;
   
   background-size: 21px 18px;
   border: none;
@@ -796,20 +727,14 @@ template {
   opacity: 0.6;
 }
 
-/*!**************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/card/__like-button/_is-active/card__like-button_is-active.css ***!
-  \**************************************************************************************************************************************************************************************************/
 .card__like-button_is-active {
-  background: transparent url(75438e944a43e4c0b404.svg) no-repeat;
+  background: transparent url(images/like-active.75438e944a43e4c0b404.svg) no-repeat;
 }
 
-/*!*********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/card/__delete-button/card__delete-button.css ***!
-  \*********************************************************************************************************************************************************************************/
 .card__delete-button {
   width: 18px;
   height: 18px;
-  background: transparent url(a274c87c0f6b553b47ad.svg) center no-repeat;
+  background: transparent url(images/delete-icon.a274c87c0f6b553b47ad.svg) center no-repeat;
   /*Потом это будет из модификатора*/
   background-size: 18px 18px;
   border: none;
@@ -830,9 +755,6 @@ template {
   opacity: 0.6;
 }
 
-/*!*****************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/card/__title/card__title.css ***!
-  \*****************************************************************************************************************************************************************/
 .card__title {
   max-width: 220px;
   font-size: 24px;
@@ -844,9 +766,6 @@ template {
   margin: 0;
 }
 
-/*!**************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/card/card.css ***!
-  \**************************************************************************************************************************************************/
 .card {
   font-family: 'Inter', Arial, sans-serif;
   -webkit-border-radius: 10px;
@@ -856,9 +775,6 @@ template {
   overflow: hidden;
 }
 
-/*!***********************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__content/popup__content.css ***!
-  \***********************************************************************************************************************************************************************/
 .popup__content {
   max-width: 430px;
   width: 100%;
@@ -879,9 +795,6 @@ template {
   }
 }
 
-/*!**********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__content/_content/popup__content_content_image.css ***!
-  \**********************************************************************************************************************************************************************************************/
 .popup__content_content_image {
   max-width: 75vw;
   max-height: 75vh;
@@ -897,13 +810,10 @@ template {
   padding: 0;
 }
 
-/*!*******************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__close/popup__close.css ***!
-  \*******************************************************************************************************************************************************************/
 .popup__close {
   width: 35px;
   height: 35px;
-  background: transparent url(888d78eb885c525f5e00.svg) center no-repeat;
+  background: transparent url(images/close.888d78eb885c525f5e00.svg) center no-repeat;
   background-size: 35px 35px;
   border: none;
   position: absolute;
@@ -924,9 +834,6 @@ template {
   opacity: 0.6;
 }
 
-/*!*******************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__title/popup__title.css ***!
-  \*******************************************************************************************************************************************************************/
 .popup__title {
   margin: 0;
   font-size: 24px;
@@ -940,16 +847,10 @@ template {
   }
 }
 
-/*!*****************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__form/popup__form.css ***!
-  \*****************************************************************************************************************************************************************/
 .popup__form {
   margin-top: 27px;
 }
 
-/*!*******************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__input/popup__input.css ***!
-  \*******************************************************************************************************************************************************************/
 .popup__input {
   width: 100%;
   height: 47px;
@@ -973,9 +874,6 @@ template {
   }
 }
 
-/*!*********************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__button/popup__button.css ***!
-  \*********************************************************************************************************************************************************************/
 .popup__button {
   width: 100%;
   height: 50px;
@@ -1004,9 +902,6 @@ template {
   }
 }
 
-/*!***********************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__caption/popup__caption.css ***!
-  \***********************************************************************************************************************************************************************/
 .popup__caption {
   font-size: 12px;
   line-height: 15px;
@@ -1017,9 +912,6 @@ template {
   margin: 0;
 }
 
-/*!*******************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__image/popup__image.css ***!
-  \*******************************************************************************************************************************************************************/
 .popup__image {
   max-height: 100%;
   max-width: 100%;
@@ -1027,9 +919,6 @@ template {
   display: block;
 }
 
-/*!****************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/popup.css ***!
-  \****************************************************************************************************************************************************/
 .popup {
   font-family: 'Inter', Arial, sans-serif;
   display: none;
@@ -1044,9 +933,6 @@ template {
   z-index: 10;
 }
 
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/_is-animated/popup_is-animated.css ***!
-  \*****************************************************************************************************************************************************************************/
 .popup_is-animated {
     display: flex;
     visibility: hidden;
@@ -1055,9 +941,6 @@ template {
     user-select: none;
     transition: visibility 0s 0.6s, opacity 0.6s;
 }
-/*!*************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/_is-opened/popup_is-opened.css ***!
-  \*************************************************************************************************************************************************************************/
 .popup_is-opened {
   display: flex;
   visibility: visible;
@@ -1066,9 +949,8 @@ template {
   transition: visibility 0s, opacity 0.6s;
 }
 
-/*!*********************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/index.css ***!
-  \*********************************************************************************************************************************************/
 
 
 
+
+/*# sourceMappingURL=main.css.map*/

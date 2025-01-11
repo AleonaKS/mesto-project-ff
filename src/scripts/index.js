@@ -20,12 +20,15 @@ const newPlace = document.forms.newPlace;
 
 const profileTitle = document.querySelector('.profile__title');
 const profileDescription = document.querySelector('.profile__description');
+const placesList = document.querySelector('.places__list');  
+
+const image = document.querySelector('.popup__image');
+const caption = document.querySelector('.popup__caption');
 
 function insertCard(content, method = "prepend") {
-  const placesList = document.querySelector('.places__list');
   const cardItem = createCard(content, removeCard, pressLike, openImage);
-  placesList[ method ](cardItem);
-};
+  placesList[method](cardItem);
+}
 
 // размещение карточек при загрузке страницы
 initialCards.forEach(function (item) {
@@ -33,52 +36,50 @@ initialCards.forEach(function (item) {
 });
 
 // заполнение полей окна "редактировать"
-function typeFields () {
+function fillFields() {
   editProfile.name.value = profileTitle.textContent;
   editProfile.description.value = profileDescription.textContent;
-};
- 
+}
+
 editButton.addEventListener('click', function() {
-  typeFields();
+  fillFields();
   openPopup(popupEdit);
 });
- 
+
 addButton.addEventListener('click', function() {
   openPopup(popupNewCard);
 });
 
 closeButtons.forEach((btn) => {
-  const popup = btn.closest('.popup')
+  const popup = btn.closest('.popup');
   btn.addEventListener('click', () => {
-      closePopup(popup);
+    closePopup(popup);
   });
 });
 
 // сборка окна с изображением
-function createImagePopup (evt) {
-  const image = document.querySelector('.popup__image');
-  const caption = document.querySelector('.popup__caption');
+function createImagePopup(evt) {
   image.setAttribute('src', evt.target.src);
   image.setAttribute('alt', evt.target.alt);
   caption.textContent = evt.target.alt;
 }
 
 // открытия модального окна с картинкой
-function openImage (evt) {
+function openImage(evt) {
   if (evt.target.classList.contains('card__image')) {
     createImagePopup(evt);
     openPopup(popupImage);
-  };
+  }
 }
 
 // редактирование профиля
-editProfile.addEventListener('submit', profileFormSubmit);
+editProfile.addEventListener('submit', handleProfileFormSubmit);
 
 // добавление новой карточки
-newPlace.addEventListener('submit', newPlaceFormSubmit);
+newPlace.addEventListener('submit', handleAddNewPlaceFormSubmit);
 
 // обработчик формы окна "добавить"
-function newPlaceFormSubmit(evt){
+function handleAddNewPlaceFormSubmit(evt) {
   evt.preventDefault();
   const newName = newPlace.placeName.value;
   const newLink = newPlace.link.value;
@@ -89,17 +90,17 @@ function newPlaceFormSubmit(evt){
   insertCard(newItem, "prepend");
   newPlace.reset();
   closePopup(popupNewCard);
-};
+}
 
 // обработчик формы окна "редактировать"
-function profileFormSubmit(evt) {
+function handleProfileFormSubmit(evt) {
   evt.preventDefault();
   profileTitle.textContent = evt.target.name.value;
   profileDescription.textContent = evt.target.description.value;
   closePopup(popupEdit);
-};
+}
 
 // анимация открытия модального окна
 popups.forEach((item) => {
   item.classList.add('popup_is-animated');
-})
+});
