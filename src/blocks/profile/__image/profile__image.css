@@ -9,6 +9,28 @@
   margin: 0 29px 0 0;
 }
 
+.profile__image-button {
+  width: 100%;
+  height: 100%; 
+  border: none;
+  background-color: rgb(0, 0, 0);
+  opacity: 0;
+  transition: opacity 0.6s;
+  display: block;
+}
+
+.profile__image-button:hover {
+  opacity: 0.8;
+}
+
+.profile__image-button-icon {
+  width: 26px;
+  height: 26px;
+  margin: 0 auto;
+  background: url('/src/images/blog43.png') center / cover;
+}
+
+
 @media screen and (max-width: 740px) {
   .profile__image {
     margin: 0 10px 0 0;

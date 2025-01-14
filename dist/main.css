@@ -635,6 +635,30 @@ template {
   margin: 0 29px 0 0;
 }
 
+/* 7 спринт */
+.profile__image-button {
+  width: 100%;
+  height: 100%;
+  /* border-radius: 50%; */
+  border: none;
+  background-color: rgb(0, 0, 0);
+  opacity: 0;
+  transition: opacity 0.6s;
+  display: block;
+}
+
+.profile__image-button:hover {
+  opacity: 0.8;
+}
+
+.profile__image-button-icon {
+  width: 26px;
+  height: 26px;
+  margin: 0 auto;
+  background: url(images/avatar.6666407ac3aa5af1d5de.jpg) center / cover;
+}
+
+
 @media screen and (max-width: 740px) {
   .profile__image {
     margin: 0 10px 0 0;
@@ -755,6 +779,13 @@ template {
   opacity: 0.6;
 }
 
+
+
+
+
+.card__delete-button-invisible {
+  display: none;
+  }
 .card__title {
   max-width: 220px;
   font-size: 24px;
@@ -860,12 +891,53 @@ template {
   line-height: 18px;
   box-sizing: border-box;
   padding: 10px 0 0;
-  margin-bottom: 10px;
+  margin-bottom: 10px;  /*  */
 }
 
 .popup__input:last-of-type {
   margin-bottom: 0;
 }
+
+
+
+
+/* .popup__input:invalid {
+  border-bottom: 1px solid #FF0000;
+} */
+
+.popup__input_type_error {
+  border-bottom: 1px solid #FF0000;
+}
+
+.popup__input:focus {
+  outline: none;
+}
+
+.popup__form-field {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.popup__input-error {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  top: calc(100% + 6px);
+  left: 0;
+  color: rgb(68, 102, 196);
+  z-index: 1;
+}
+
+/* .popup__input-error:last-of-type {
+  top: 0;
+} */
+
+.popup__error_visible {
+  display: block;
+  color: red;
+}
+
 
 @media screen and (max-width: 568px) {
   .popup__title {
@@ -894,6 +966,16 @@ template {
   background: rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
+
+/* 7 спринт */
+.popup__button_disabled {
+  color: #C4C4C4;
+  background: none;
+  pointer-events: none;
+  outline: 1px solid #C4C4C4;
+  }
+
+
 
 @media screen and (max-width: 568px) {
   .popup__button {
