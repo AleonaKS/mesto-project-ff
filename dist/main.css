@@ -653,7 +653,7 @@ template {
   width: 26px;
   height: 26px;
   margin: 0 auto;
-  background: url(images/blog43.7a720c11dd14c2bc6379.png) center / cover;
+  background: url(images/edit-icon.8667ac4a523e8fc42e59.svg) center / cover;
 }
 
 
@@ -747,6 +747,12 @@ template {
 
 .card__like-button:hover {
   opacity: 0.6;
+}
+
+.card__like-wrapper {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;  
 }
 
 .card__like-button_is-active {

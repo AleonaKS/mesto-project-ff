@@ -39,6 +39,9 @@ const profileAvatar = document.querySelector('.profile__image');
  
 const placesList = document.querySelector('.places__list');
 
+const image = document.querySelector('.popup__image');
+const caption = document.querySelector('.popup__caption');
+
 // заполнение полей в модальном окне профиля
 function typeFields () {
   editProfile.name.value = profileTitle.textContent;
@@ -73,9 +76,7 @@ closeButtons.forEach((btn) => {
 });
 
 // сборка окна с изображением
-function createImagePopup (evt) {
-  const image = document.querySelector('.popup__image');
-  const caption = document.querySelector('.popup__caption');
+function createImagePopup (evt) { 
   image.src = evt.target.src;
   image.alt = evt.target.alt
   caption.textContent = evt.target.alt;

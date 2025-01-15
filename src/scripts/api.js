@@ -1,33 +1,3 @@
-// const config = {
-//     baseUrl: 'https://nomoreparties.co/v1/wff-cohort-mag-4',
-//     headers: {
-//       authorization: '84299558-2d35-4255-81ed-1ece867540fe',
-//       'Content-Type': 'application/json'
-//     }
-//   }
-//   return fetch('https://nomoreparties.co/v1/cohort-42/cards', {
-//   headers: {
-//     authorization: 'c56e30dc-2883-4270-a59e-b2f7bae969c6'
-//   }
-// })
-//   .then(res => res.json())
-//   .then((result) => {
-//     console.log(result);
-//   }); 
-// return fetch('https://nomoreparties.co/v1/cohort-mag-4/cards', {
-//   headers: {
-//     authorization: '84299558-2d35-4255-81ed-1ece867540fe',
-//     'Content-Type': 'application/json'
-//   }
-// })
-//   .then(handleResponse) // Используем handleResponse для обработки ответа
-//   .then((result) => {
-//     console.log(result);
-//   })
-//   .catch((error) => {
-//     console.error(error); // Обработка ошибок
-//   });
-
 const config = {
     baseUrl: 'https://nomoreparties.co/v1/cohort-mag-4',
     headers: {
